@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 @WebServlet(
-        name = "MyServlet",
+        name = "HelloServlet",
         urlPatterns = {"/"}
     )
 public class HelloServlet extends HttpServlet {
